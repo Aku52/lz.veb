@@ -2,12 +2,15 @@
 body {
     font-family: "Inter", sans-serif;
     font-size:15px ;
-    max-width: 1130px ;
+    max-width: 1400px ;
     margin:0 auto;
     color: #1F1F1F;
 }
+.border{
+  border: 5px solid #000000;
+}
 .ramka_1 {
-    max-width: 1130px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 header{
@@ -18,17 +21,21 @@ header{
 .left-flex{
     display: flex;
     align-items: center;
+    margin: 20px 1px 20px 1px;
+    width: 1400px;
+    height: 110px;
 }
 .logo{
-    margin-right: 36px;
-    margin-left: 36px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
 }
 .nav-flex a {
-    margin-right: 24px;
+    padding: 30px 30px ;
 }
 a {
     text-decoration: none;
-    margin: 50px 15px 15px 45px;
+    margin: 50px 20px 20px 45px;
     color:#000000 ;
 }
 .go{
@@ -37,22 +44,24 @@ a {
     padding: 6px 20px;
     border: none;
     font-size: 17px;
+    width: 155px;
+    height: 52px;
+    margin: 20px 9px 20px 9px;
 }
+
 .container  {
     display: grid;
     grid-template-columns: repeat(2, 700px);
     grid-template-rows: repeat(2, 900px);
-    
     grid-auto-flow: column;
-
     gap: 0px;
   }
-  
   .first_napitok{
     grid-row: span 2;
+    width: 690px;
+    height: 230px;
+    text-align: center;
   } 
-
-
 .parent_img {
     position: relative;
     top: 0;
@@ -62,12 +71,60 @@ a {
     position: relative;
     top: 0;
     left: 0;
-    border: 1px red solid;
   }
   .iroglif {
     position: absolute;
     top: 30px;
     left: 30px;
-    border: 1px green solid;
   }
-  
+.put_some{
+  display: flex;
+  align-items: start;
+  height:78px ;
+}
+h1{
+  width: 535px;
+  height: 195px;
+  padding: 15px 80px 15px 80px;
+  font-size: 58px;
+  text-align: center ;
+}
+
+
+.throw_some{
+  display: flex;
+  align-items: start;
+  height: 270px;
+  width: 1400px;
+}
+
+.parent_1_img{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .ramka_green_1{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .fioletov_napitok{
+    position: absolute;
+    top: 90px;
+    left:90px;
+  }
+  .parent_2_img{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .ramka_green_2{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .two_napitok{
+    position: absolute;
+    top: 90px;
+    left:90px;
+  }
