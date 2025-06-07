@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: "Inter", sans-serif;
@@ -48,6 +51,19 @@ a {
     width: 155px;
     height: 52px;
     margin: 25px 25px 25px 25px;
+}
+.go:hover{
+  background-color: #ab9cf5;
+}
+.go:active{
+  background-color: #e9759b;
+}
+a:hover{
+  color: #99ddf0;
+  text-decoration: underline;
+}
+a:active{
+  color: #544ae2;
 }
 
 .container_1  {
@@ -168,6 +184,8 @@ h3{
 .fire{
   position: relative;
   top: -250px;
+  text-align: center ;
+  margin: -10px;
 }
 .parent_1_img{
     position: relative;
@@ -395,4 +413,7 @@ h5{
   width:1400px ;
   height: 25px;
   margin-left: 100px;
+}
+h5 a {
+  position: relative;
 }
