@@ -1,14 +1,10 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    font-size:15px ;
-    max-width: 1400px ;
-    margin:0 auto;
-    color: #1F1F1F;
-    border: 2px solid #000000;
+body{
+  font-family: "Inter", sans-serif;
+  font-size:15px ;
+  max-width: 1400px ;
+  margin:0 auto;
+  color: #1F1F1F;
+  border: 2px solid #000000;
 }
 section {
   margin: 0; 
@@ -138,14 +134,15 @@ h1{
   left: 20px;
   top: 510px;
 }
-.ryka_napitok{
-  position: absolute;
-  left: 775px;
-  top: 425px;
+.bott{
+  margin-bottom: 0;
 }
-
 .perec{
   padding: 0px 10px 0 0;
+}
+.mar_bot{
+  position: relative;
+  top: -20px;
 }
 .put_some_2{
   display: flex;
